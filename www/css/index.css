@@ -1,0 +1,61 @@
+.bg-warning {
+    background-color: orange;
+}
+.bg-pink {
+    background-color: pink;
+}
+.w-100 {
+    width:100%;
+}
+
+[data-name="home"] .toolbar {
+    background: transparent !important;
+}
+
+.round-button {
+    border-radius: 100%;
+    background-color: lightblue;
+    color: black;
+}
+
+#capture-button {
+    padding: 20px;
+    position: absolute;
+    right: 40px;
+    top: -50px;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-size:3rem;
+}
+
+#video-button, #camera-button {
+    padding: 10px;
+    position: absolute;
+    top: -130px;
+    right: 45px;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-size: 2.3rem;
+}
+
+#camera-button {
+    top: -205px;
+}
+
+.center-icon {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+[data-name="home"] .toolbar-inner {
+    position: unset;
+}

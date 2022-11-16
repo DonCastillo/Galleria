@@ -33,18 +33,88 @@
         <meta name="msapplication-tap-highlight" content="no">
         <meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover">
         <meta name="color-scheme" content="light dark">
+        <link rel="stylesheet" href="css/all.min.css">
+        <link rel="stylesheet" href="css/framework7-bundle.min.css">
+        <link rel="stylesheet" href="css/fonts/framework7-icons.css">
+        <link rel="stylesheet" href="css/fonts/material-icons.css">
         <link rel="stylesheet" href="css/index.css">
-        <title>Hello World</title>
+        <title>Galleria</title>
     </head>
     <body>
-        <div class="app">
-            <h1>Apache Cordova</h1>
-            <div id="deviceready" class="blink">
-                <p class="event listening">Connecting to Device</p>
-                <p class="event received">Device is Ready</p>
+        
+        <div id="app">
+
+            <!-- Main View -->
+            <div class="view view-main">
+
+                <!-- Home Page -->
+                <div class="page bg-pink" data-name="home">
+
+                    <!-- Nav Bar -->
+                    <div class="navbar">
+                        <div class="navbar-bg bg-warning"></div>
+                        <div class="navbar-inner">
+                            <div class="title text-align-center w-100">Galleria</div>
+                        </div>
+                    </div>
+                    <!-- Nav Bar -->
+
+                    <!-- ToolBar -->
+                    <!--<div class="toolbar toolbar-bottom">
+                        <div class="toolbar-inner">
+                            <div id="camera-button" class="ripple round-button">
+                                <i class="fa-solid fa-plus center-icon"></i>
+                            </div>
+                            <div id="video-button" class="ripple round-button">
+                                <i class="fa-solid fa-plus center-icon"></i>
+                            </div>
+                           <div id="capture-button" class="ripple round-button">
+                                <i class="fa-solid fa-plus center-icon"></i>
+                            </div>
+                        </div>
+                    </div>-->
+                    <div class="fab fab-right-bottom color-orange">
+                        <a href="#">
+                          <i class="icon f7-icons if-not-md">plus</i>
+                          <i class="icon f7-icons if-not-md">xmark</i>
+                          <i class="icon material-icons md-only">add</i>
+                          <i class="icon material-icons md-only">close</i>
+                        </a>
+                        <div class="fab-buttons fab-buttons-top">
+                            <a class="fab-label-button" href="#">
+                                <span>
+                                    <i class="icon f7-icons if-not-md">videocam</i>
+                                    <i class="icon material-icons md-only">movie</i>
+                                </span>
+                                <span class="fab-label">Record a video</span>
+                            </a>
+                            <a class="fab-label-button" href="#">
+                                <span>
+                                    <i class="icon f7-icons if-not-md">camera</i>
+                                    <i class="icon material-icons md-only">photo_camera</i>
+                                </span>
+                                <span class="fab-label">Take a photo</span>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- ToolBar -->
+
+                    <!-- Page Content -->
+                    <div class="page-content bg-warning">
+                        <div class="block">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi, delectus reprehenderit iusto alias illum ipsam possimus officia voluptas! Nihil accusantium harum ad sunt ipsum laboriosam saepe in reprehenderit facere sint! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi, delectus reprehenderit iusto alias illum ipsam possimus officia voluptas! Nihil accusantium harum ad sunt ipsum laboriosam saepe in reprehenderit facere sint! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi, delectus reprehenderit iusto alias illum ipsam possimus officia voluptas! Nihil accusantium harum ad sunt ipsum laboriosam saepe in reprehenderit facere sint! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi, delectus reprehenderit iusto alias illum ipsam possimus officia voluptas! Nihil accusantium harum ad sunt ipsum laboriosam saepe in reprehenderit facere sint! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi, delectus reprehenderit iusto alias illum ipsam possimus officia voluptas! Nihil accusantium harum ad sunt ipsum laboriosam saepe in reprehenderit facere sint! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi, delectus reprehenderit iusto alias illum ipsam possimus officia voluptas! Nihil accusantium harum ad sunt ipsum laboriosam saepe in reprehenderit facere sint! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi, delectus reprehenderit iusto alias illum ipsam possimus officia voluptas! Nihil accusantium harum ad sunt ipsum laboriosam saepe in reprehenderit facere sint! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi, delectus reprehenderit iusto alias illum ipsam possimus officia voluptas! Nihil accusantium harum ad sunt ipsum laboriosam saepe in reprehenderit facere sint! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi, delectus reprehenderit iusto alias illum ipsam possimus officia voluptas! Nihil accusantium harum ad sunt ipsum laboriosam saepe in reprehenderit facere sint! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi, delectus reprehenderit iusto alias illum ipsam possimus officia voluptas! Nihil accusantium harum ad sunt ipsum laboriosam saepe in reprehenderit facere sint! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi, delectus reprehenderit iusto alias illum ipsam possimus officia voluptas! Nihil accusantium harum ad sunt ipsum laboriosam saepe in reprehenderit facere sint! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi, delectus reprehenderit iusto alias illum ipsam possimus officia voluptas! Nihil accusantium harum ad sunt ipsum laboriosam saepe in reprehenderit facere sint! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi, delectus reprehenderit iusto alias illum ipsam possimus officia voluptas! Nihil accusantium harum ad sunt ipsum laboriosam saepe in reprehenderit facere sint! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi, delectus reprehenderit iusto alias illum ipsam possimus officia voluptas! Nihil accusantium harum ad sunt ipsum laboriosam saepe in reprehenderit facere sint! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi, delectus reprehenderit iusto alias illum ipsam possimus officia voluptas! Nihil accusantium harum ad sunt ipsum laboriosam saepe in reprehenderit facere sint! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi, delectus reprehenderit iusto alias illum ipsam possimus officia voluptas! Nihil accusantium harum ad sunt ipsum laboriosam saepe in reprehenderit facere sint!
+                        </div> 
+                    </div>
+                    <!-- Page Content -->
+
+                </div>
+                <!-- Home Page -->
+
             </div>
         </div>
-        <script src="cordova.js"></script>
+        <script src="js/jquery-3.6.1.min.js"></script>
+        <script src="js/framework7-bundle.min.js"></script>
+        <script src="js/framework7-style.js"></script>
         <script src="js/index.js"></script>
     </body>
 </html>
