@@ -18,7 +18,7 @@
     color: black;
 }
 
-#capture-button {
+/* #capture-button {
     padding: 20px;
     position: absolute;
     right: 40px;
@@ -46,7 +46,7 @@
 
 #camera-button {
     top: -205px;
-}
+} */
 
 .center-icon {
     margin: 0;
