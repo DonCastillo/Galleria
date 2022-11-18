@@ -18,6 +18,18 @@
     color: black;
 }
 
+.image-cell {
+    height: 170px;
+}
+
+img {
+    max-width: 100%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
 /* #capture-button {
     padding: 20px;
     position: absolute;

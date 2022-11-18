@@ -17,10 +17,23 @@ function onDeviceReady() {
     }
 
     function cameraSuccess(image) {
-        console.log('image', image)
+        // console.log('image', image)
+        resolveLocalFileSystemURL(image, function(fileEntry) {
+            $('#gallery').prepend(CreateCard(fileEntry.toURL()));
+        });
+
+        
     }
 
     function cameraError(error) {
         console.log('error', error);
+    }
+
+    function CreateCard(imageURL) {
+        return `
+            <div class="col-50 image-cell">
+                <img src="${imageURL}">
+            </div>
+        `
     }
 }
