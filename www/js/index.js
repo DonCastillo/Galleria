@@ -2,7 +2,7 @@ document.addEventListener('deviceready', onDeviceReady, false);
 
 function onDeviceReady() {
     var cameraOptions = {
-        quality: 100,
+        quality: 80,
         destinationType: Camera.DestinationType.FILE_URI, // FILE_URI
         encodingType: Camera.EncodingType.JPEG, // JPEG
         pictureSourceType: Camera.PictureSourceType.CAMERA, // CAMERA 

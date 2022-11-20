@@ -88,7 +88,16 @@ img {
     justify-content: center;
     align-items: center;
 }
+.photo-buttons {
+    width: 100%;
+    max-width: 290px;
+}
 
 [data-name="home"] .toolbar-inner {
     position: unset;
+}
+.photo-browser-slide .swiper-zoom-container img {
+    max-height: 75%;
+    object-fit: contain;
+    object-position: center;
 }

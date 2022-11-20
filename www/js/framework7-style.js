@@ -10,7 +10,7 @@ var app = new Framework7({
     ]
 });
 
-var imagesCaptured = [];
+var imagesCaptured = [{image: 'img/pexels-bruno-joseph-12179283.jpg', liked: true}];
 var mainView = app.views.create('.view-main');
 var photoBrowser;
 
@@ -99,7 +99,7 @@ function LikeImage(event) {
 
 function AddButtons() {
     const button = `
-    <div class="photo-buttons row no-gap w-100">
+    <div class="photo-buttons row no-gap">
         <div class="col-50 padding-vertical">
             <a href="#" class="ripple like-button">
                 <i class="icon f7-icons if-not-md">hand_thumbsup</i>
