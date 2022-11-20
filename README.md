@@ -10,6 +10,7 @@ You should have node, npm, cordova, and Android studio already installed
   1. Clone the repo
   2. Enter `cd Galleria`
   3. `npm i` to install dependencies
+  4. `npx cordova platform add android`
  
 ### To run locally on the emulator
   4. `npx cordova run --emulator`
