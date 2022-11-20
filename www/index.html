@@ -28,7 +28,7 @@
             * Disables use of inline scripts in order to mitigate risk of XSS vulnerabilities. To change this:
                 * Enable inline JS: add 'unsafe-inline' to default-src
         -->
-        <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;">
+        <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: cdvfile: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;">
         <meta name="format-detection" content="telephone=no">
         <meta name="msapplication-tap-highlight" content="no">
         <meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover">
@@ -47,7 +47,7 @@
             <div class="view view-main">
 
                 <!-- Home Page -->
-                <div class="page bg-pink" data-name="home">
+                <div class="page" data-name="home">
 
                     <!-- Nav Bar -->
                     <div class="navbar">
@@ -59,109 +59,20 @@
                     <!-- Nav Bar -->
 
                     <!-- ToolBar -->
-                    <!--<div class="toolbar toolbar-bottom">
-                        <div class="toolbar-inner">
-                            <div id="camera-button" class="ripple round-button">
-                                <i class="fa-solid fa-plus center-icon"></i>
-                            </div>
-                            <div id="video-button" class="ripple round-button">
-                                <i class="fa-solid fa-plus center-icon"></i>
-                            </div>
-                           <div id="capture-button" class="ripple round-button">
-                                <i class="fa-solid fa-plus center-icon"></i>
-                            </div>
-                        </div>
-                    </div>-->
                     <div class="fab fab-center-bottom color-orange">
-                        <!--<a href="#">
-                          <i class="icon f7-icons if-not-md">plus</i>
-                          <i class="icon f7-icons if-not-md">xmark</i>
-                          <i class="icon material-icons md-only">add</i>
-                          <i class="icon material-icons md-only">close</i>
-                        </a>-->
                         <a href="#" class="fab-label-button" id="camera-button">
                             <span>
                                 <i class="icon f7-icons if-not-md">camera</i>
                                 <i class="icon material-icons md-only">photo_camera</i>
                             </span>
                         </a>
-                        <!--<div class="fab-buttons fab-buttons-top">
-                            <a class="fab-label-button">
-                                <span>
-                                    <i class="icon f7-icons if-not-md">videocam</i>
-                                    <i class="icon material-icons md-only">movie</i>
-                                </span>
-                                <span class="fab-label">Record a video</span>
-                            </a>
-                            <a href="#" class="fab-label-button" id="camera-button">
-                                <span>
-                                    <i class="icon f7-icons if-not-md">camera</i>
-                                    <i class="icon material-icons md-only">photo_camera</i>
-                                </span>
-                                <span class="fab-label">Take a photo</span>
-                            </a>
-                        </div>-->
                     </div>
                     <!-- ToolBar -->
 
                     <!-- Page Content -->
                     <div class="page-content bg-warning">
                         <div class="block">
-                           <div id="gallery" class="row no-gap" style="background-color:purple;">
-                                <div class="col-50 image-cell">
-                                    <img src="img/soylentgreen-banner.jpg">
-                                </div>
-                                <div class="col-50 image-cell">
-                                    <img src="img/thehillshaveeyes-banner.jpg">
-                                </div>
-                                <div class="col-50 image-cell">
-                                    <img src="img/upsidedown-banner.jpg">
-                                </div>
-                                <div class="col-50 image-cell">
-                                    <img src="img/soylentgreen-banner.jpg">
-                                </div>
-                                <div class="col-50 image-cell">
-                                    <img src="img/thehillshaveeyes-banner.jpg">
-                                </div>
-                                <div class="col-50 image-cell">
-                                    <img src="img/upsidedown-banner.jpg">
-                                </div>
-                                <div class="col-50 image-cell">
-                                    <img src="img/soylentgreen-banner.jpg">
-                                </div>
-                                <div class="col-50 image-cell">
-                                    <img src="img/thehillshaveeyes-banner.jpg">
-                                </div>
-                                <div class="col-50 image-cell">
-                                    <img src="img/upsidedown-banner.jpg">
-                                </div>
-                                <div class="col-50 image-cell">
-                                    <img src="img/soylentgreen-banner.jpg">
-                                </div>
-                                <div class="col-50 image-cell">
-                                    <img src="img/thehillshaveeyes-banner.jpg">
-                                </div>
-                                <div class="col-50 image-cell">
-                                    <img src="img/upsidedown-banner.jpg">
-                                </div>
-                                <div class="col-50 image-cell">
-                                    <img src="img/soylentgreen-banner.jpg">
-                                </div>
-                                <div class="col-50 image-cell">
-                                    <img src="img/thehillshaveeyes-banner.jpg">
-                                </div>
-                                <div class="col-50 image-cell">
-                                    <img src="img/upsidedown-banner.jpg">
-                                </div>
-                                <div class="col-50 image-cell">
-                                    <img src="img/soylentgreen-banner.jpg">
-                                </div>
-                                <div class="col-50 image-cell">
-                                    <img src="img/thehillshaveeyes-banner.jpg">
-                                </div>
-                                <div class="col-50 image-cell">
-                                    <img src="img/upsidedown-banner.jpg">
-                                </div>
+                           <div id="gallery" class="row no-gap">
                            </div>
                         </div> 
                     </div>

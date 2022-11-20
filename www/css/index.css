@@ -11,7 +11,15 @@
 [data-name="home"] .toolbar {
     background: transparent !important;
 }
-
+.icon {
+    font-size:2rem;
+}
+.like-button, .delete-button {
+    color:unset;
+}
+.liked {
+    color: var(--f7-theme-color);
+}
 .round-button {
     border-radius: 100%;
     background-color: lightblue;
@@ -20,6 +28,7 @@
 
 .image-cell {
     height: 170px;
+    position:relative;
 }
 
 img {
@@ -29,36 +38,17 @@ img {
     object-fit: cover;
     object-position: center;
 }
-
-/* #capture-button {
-    padding: 20px;
-    position: absolute;
-    right: 40px;
-    top: -50px;
-    height: 30px;
-    width: 30px;
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    font-size:3rem;
+.swiper-zoom-container {
+    flex-direction:column;
 }
-
-#video-button, #camera-button {
+.cell-liked {
+    position: absolute;
+    bottom: 0;
+    right: 0;
     padding: 10px;
-    position: absolute;
-    top: -130px;
-    right: 45px;
-    height: 40px;
-    width: 40px;
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    font-size: 2.3rem;
+    /* background: rgb(0,0,0);
+    background: linear-gradient(304deg, rgba(0,0,0,1) 26%, rgba(255,255,255,0) 100%);  */
 }
-
-#camera-button {
-    top: -205px;
-} */
 
 .center-icon {
     margin: 0;
